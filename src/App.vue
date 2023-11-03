@@ -1,10 +1,13 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import Home from './views/Home.vue'
+import SideNavigation from './components/SideNavigation.vue'
 </script>
 
 <template>
-  <Home/>
+<SideNavigation/>
+ <div class="wrap-all-the-things">
+    <RouterView/>    
+  </div>
 </template>
 
 <style scoped>

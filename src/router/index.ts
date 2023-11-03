@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import Dashboard from '../views/Dashboard.vue'
 import AddPatient from '../views/AddPatient.vue'
 
 const router = createRouter({
@@ -7,12 +7,12 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'dashboard',
+      component: Dashboard
     },
     {
       path: '/add_patient',
-      name: 'addPatient',
+      name: 'add_patient',
       component: AddPatient
     }
   ]

@@ -1,11 +1,8 @@
-
-
 <template>
 <main>
 </main>
-  <SideNavigation/>
   <div class="wrap-all-the-things">
-    TESTT
+    <router-view/>    
   </div>
 </template>
 <script setup lang="ts">
