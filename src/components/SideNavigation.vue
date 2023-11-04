@@ -32,9 +32,6 @@
 </script>
 
 <style lang="scss">
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
-
 $color-1: rgb(22, 53, 104);
 $color-2: #fefefe;
 $pad:     0.925rem;
@@ -135,9 +132,9 @@ body{
   background: rgb(26, 59, 112);
   transition: width 400ms;
   &:hover{
-      width: 436px;
+      width: 300px;
       & + .wrap-all-the-things{
-          transform: translateX(336px);
+          transform: translateX(250px);
           max-width: 100%;
       }
       .head-nav{
@@ -173,7 +170,7 @@ body{
 .wrap-all-the-things{
   min-height: 100%;
   height: 100%;
-  padding: {left:140px;}
+  padding: {left:70px;}
   margin: {top: 0;}
   transition: transform 400ms, opacity 400ms;
   @media screen and (max: 480px){
