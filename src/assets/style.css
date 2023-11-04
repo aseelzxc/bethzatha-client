@@ -1,0 +1,18 @@
+body{
+    background-color: #e7e3e3;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-heading{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
