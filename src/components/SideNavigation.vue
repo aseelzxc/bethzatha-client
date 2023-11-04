@@ -32,32 +32,19 @@
 </script>
 
 <style lang="scss">
-$color-1: rgb(22, 53, 104);
+@import '../assets/colors.scss';
 $color-2: #fefefe;
 $pad:     0.925rem;
-
-html,
-body{
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  font-family: Roboto;
-  height: 100%;
-}
-.icon{
-  width: 50;
-  height: 50;
-  fill: #fff;
-}
 .hide{
   display: none;
 }
 .head-nav {
   li{
     &:hover{
-        background-color: $color-1;
+        background-color: $--hover-blue;
+
         &:before{
-            background-color: $color-1;
+            background-color: blue;
         }
     }
     &:before{
@@ -98,7 +85,6 @@ body{
           position: relative;
           display: block;
           z-index: 0;
-          font-family: Roboto;
           text-indent: -20em;
           white-space: nowrap;
           transition: text-indent 400ms ease-in-out;
@@ -129,12 +115,12 @@ body{
   width: 83px;
   height: 100%;
   z-index: 1;
-  background: rgb(26, 59, 112);
+  background: $--main-blue;
   transition: width 400ms;
   &:hover{
       width: 300px;
       & + .wrap-all-the-things{
-          transform: translateX(250px);
+          margin-left: 15rem;
           max-width: 100%;
       }
       .head-nav{
@@ -172,7 +158,7 @@ body{
   height: 100%;
   padding: {left:70px;}
   margin: {top: 0;}
-  transition: transform 400ms, opacity 400ms;
+  transition: margin-left 400ms, opacity 400ms, width 400ms;
   @media screen and (max: 480px){
       padding: {left:70px;}
   }
