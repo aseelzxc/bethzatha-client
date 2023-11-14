@@ -32,38 +32,4 @@
 </template>
 
 <style lang="scss" scoped>
-@import '../assets/colors.scss';
-
-main{
-    padding: 1rem;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-}
-header{
-    width: 95%;
-    padding: 1rem;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-.form-container{
-    background-color: #fff;
-    width: 60%;
-    padding: 2rem;
-    box-shadow: 0 0 .6em .05em rgba(0,0,0,0.2);
-    margin: 1rem;
-}
-.heading{
-    color: $--main-blue;
-}
-
-.input-container{
-    justify-content: space-between;
-    div{
-        input{
-            width: 10rem;
-            height: 1rem;
-        }
-    }
-}
 </style>
