@@ -5,8 +5,12 @@
             <h3>Bethzatha</h3>
         </div>
         <div class="navigation-container flex-row">
-            <span>Dashboard</span>
-            <span>Manage patients</span>
+            <router-link to="/">
+                <span>Dashboard</span>
+            </router-link>
+            <router-link to="/add_patient">
+                <span>Manage patients</span>
+            </router-link>
         </div>
         <div class="account-info-container flex-row">
             <span>Test user</span>
@@ -30,7 +34,10 @@ header{
     .navigation-container{
         flex-grow: 1;
         gap: 1.5rem;
-
+        a{
+            color: inherit;
+            text-decoration: none;
+        }
         span{
             cursor: pointer;
         }
