@@ -4,6 +4,7 @@ body{
     font-family: 'Raleway', sans-serif;
     background-color: #f0f3f6;
     margin: 0;
+    font-size: 0.96rem;
     padding: 0;
 }
 
@@ -24,4 +25,8 @@ body{
 
 span{
     font-size: 0.9em;
+}
+
+.text-bold{
+    font-weight: 600;
 }
