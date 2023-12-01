@@ -28,7 +28,7 @@
           <div>Tests</div>
         </div>
       </router-link>
-      <router-link to="/">
+      <router-link to="/patients">
         <div class="nav-item flex-row">
           <i class="bx bxs-home-heart"></i>
           <div>Patients</div>
